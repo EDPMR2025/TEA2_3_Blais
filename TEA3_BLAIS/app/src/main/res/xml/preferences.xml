@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory
+        android:title="API"
+        app:iconSpaceReserved="false">
+
+        <EditTextPreference
+            android:defaultValue="http://tomnab.fr/todo-api/"
+            android:key="api_url"
+            android:title="URL de l'API"
+            android:summary="URL de base de l'API"
+            app:iconSpaceReserved="false" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="Général"
+        app:iconSpaceReserved="false">
+
+        <Preference
+            android:key="pseudo"
+            android:title="@string/pseudo_settings"
+            android:summary="@string/pseudo_settings_summary"
+            app:iconSpaceReserved="false" />
+
+        <Preference
+            android:key="clear_history"
+            android:title="@string/clear_history"
+            app:iconSpaceReserved="false" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen> 

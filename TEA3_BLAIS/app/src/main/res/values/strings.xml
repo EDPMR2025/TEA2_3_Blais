@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TEA2 BLAIS</string>
+    <string name="pseudo_hint">Entrez votre pseudo</string>
+    <string name="password_hint">Entrez votre mot de passe</string>
+    <string name="ok">OK</string>
+    <string name="settings">Préférences</string>
+    <string name="title_activity_settings">Paramètres</string>
+    <string name="new_list">Nouvelle Liste</string>
+    <string name="new_item">Nouvel Item</string>
+    <string name="clear_history">Effacer l\'historique</string>
+    <string name="pseudo_settings">Pseudo</string>
+    <string name="pseudo_settings_summary">Votre pseudo actuel</string>
+    <string name="error_network">Pas de connexion réseau</string>
+    <string name="error_auth">Erreur d\'authentification</string>
+    <string name="error_server">Erreur serveur</string>
+</resources>
